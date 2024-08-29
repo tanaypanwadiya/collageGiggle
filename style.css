@@ -1,0 +1,236 @@
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: "New Amsterdam", sans-serif;
+
+}
+#page1{
+/* height: 100vh; */
+width: 100%;
+/* background-color: black; */
+/* background-color: #0C1A68; */
+}
+
+#Welcome h1{
+    font-size: 150px;
+    color: #EBD4D5;
+    margin-left: 70px;
+}
+#tocollage{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 450px;    
+}
+#welcome,#tocollage{  
+
+    color: white;
+    letter-spacing: 5px;}
+.row{
+display: flex;
+}
+.column1{
+/* height: 100vh; */
+width: 50%;
+/* background-color:black; */
+position: relative;
+}
+.column2{
+height: 68.6vh;
+width: 50%;
+background-color: #101957;
+}
+
+#page1 nav h1{
+color:white;
+font-size: 40px;
+padding-top: 20px;
+padding-left: 30px;
+margin-bottom: 20px;
+align-items: center;
+letter-spacing: 4px;
+
+}
+.menu{
+display: flex;
+
+
+}
+.menu a{
+font-size: 20px;
+padding: 20px;
+
+color: rgb(255, 255, 255); /* Change 'black' to any color you prefer */
+text-decoration: none; /* This removes the underline */
+}
+.menu a:hover{
+font-size: 22px;
+text-decoration: underline;
+
+}    
+#page1 nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #101957;
+}
+
+
+.column1 button{
+    height: 40px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    font-family: "New Amsterdam", sans-serif;
+    /* position: absolute; */
+    /* z-index: 10; */
+}
+
+.column1 button:hover{
+    background-color: grey;
+    font-size: 25px;
+   
+    border-radius: 20px;
+}
+.img img{
+    /* height:90vh; */
+    width: 50vw;
+    /* margin-left: 18%; */
+    color: white;
+    position: absolute;
+    z-index: -9;
+    top: 0px;
+    left: 0px;
+    /* margin-left: 0px; */
+    /* object-fit: cover; */
+    /* background-position: center; */
+    
+
+}
+/* .column2 h1{
+    font-size: 120px;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: white;
+    letter-spacing: 5px;
+} */
+.column2 h4{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 30px ;
+    color: white;
+}
+
+  
+@keyframes slide1 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos1 {
+    overflow: hidden;
+    padding: 10px 0;
+    background: #EBD4D5;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+
+  
+  .logos1:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos1:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos1:hover .logos-slide1 {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide1 {
+    display: inline-block;
+    animation: 35s slide1 infinite linear;
+    /* background-color: rgb(255, 255, 255); */
+  }
+  
+  .logos-slide1 img {
+    height: 200px;
+    width: 300px;
+    margin: 0 10px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+    
+  @keyframes slide2 {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .logos2 {
+    overflow: hidden;
+    padding: 10px 0;
+    background: #EBD4D5;
+    white-space: nowrap;
+    position: relative;
+    top: 10px;
+  }
+  
+
+  
+  .logos2:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos2:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos2:hover .logos-slide2 {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide2 {
+    display: inline-block;
+    animation: 35s slide2 infinite linear;
+    
+  }
+  
+  .logos-slide2 img {
+    height: 200px;
+    width: 300px;
+    margin:   10px;
+    object-fit: cover;
+border-radius: 20px;
+
+    
+  }
+  #page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black;
+     */
+     background-color: #EBD4D5;
+  }
